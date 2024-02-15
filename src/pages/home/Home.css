@@ -1,0 +1,17 @@
+.container {
+  background: #fff;
+  padding-left: 17%;
+  padding-right: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.largecontainer {
+  padding-left: 7%;
+}
+@media (max-width: 900px) {
+  .largecontainer,
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
